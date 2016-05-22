@@ -4,7 +4,7 @@
 
 	$email = $_REQUEST['email'];
 
-	$con=mysqli_connect("187.45.196.243","socialadrenali","cr34t1v3","socialadrenali");
+	$con=mysqli_connect("host","user","passw","db");
 	
 	if (mysqli_connect_errno()){
   		echo "Failed to connect to MySQL: " . mysqli_connect_error();
